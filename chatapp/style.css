@@ -1,0 +1,39 @@
+.mid-section{
+    height: 525px;
+}
+.first{
+    height:88%;
+    overflow: auto;
+    margin-bottom: 5px;;
+}
+.first::-webkit-scrollbar{
+    display: none;
+}
+.second {
+    height: 12%;
+    
+}
+.myform {
+    display: flex;
+    margin: 0 30px;
+}
+
+.left,.right,.center {
+    width:60%;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    clear: both;
+    margin: auto;
+    text-align: center;
+}
